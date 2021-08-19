@@ -1,0 +1,32 @@
+.header
+	border-bottom: 4px solid $primary
+	background-color: $text-color
+	&__block
+		display: flex
+		align-items: center
+		justify-content: space-between
+	&__list
+		display: flex
+		justify-content: space-between
+		flex-wrap: wrap
+	&__contacts
+		display: flex
+		flex-direction: column
+		text-align: right
+		span
+			font-size: 14px
+			line-height: 16px
+	&__item:not(:last-child)
+		margin-right: 80px
+	&__item
+		padding: 12px 0px 8px 0px
+	&__item:hover
+		background-color: $primary
+	&__link
+		display: block
+		max-width: 116px
+		text-align: center
+	&__phone
+		font-weight: bold
+		font-size: 17px
+		line-height: 20px

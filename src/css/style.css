@@ -1,0 +1,86 @@
+a {
+  color: inherit;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.header {
+  border-bottom: 4px solid #3596F5;
+  background-color: #635854;
+}
+
+.header__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.header__contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: right;
+}
+
+.header__contacts span {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.header__item:not(:last-child) {
+  margin-right: 80px;
+}
+
+.header__item {
+  padding: 12px 0px 8px 0px;
+}
+
+.header__item:hover {
+  background-color: #3596F5;
+}
+
+.header__link {
+  display: block;
+  max-width: 116px;
+  text-align: center;
+}
+
+.header__phone {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+}
+/*# sourceMappingURL=style.css.map */
